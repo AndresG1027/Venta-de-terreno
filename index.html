@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terreno en venta • Achumani, La Paz</title>
+  <meta name="description" content="Terreno de 300 m² en Achumani con todos los servicios, vista panorámica, acceso pavimentado. Oferta limitada. Contáctanos hoy.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="encabezado">
+    <div class="contenedor">
+      <h1>Terreno Achumani</h1>
+      <nav id="menu">
+        <a href="#ventajas">Ventajas</a>
+        <a href="#galeria">Imágenes</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto" class="boton-primario">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="contenedor hero-contenido">
+      <div class="texto-hero">
+        <h2>Terreno de 300 m² listo para construir</h2>
+        <p class="subtexto">Con todos los servicios, frente pavimentado, vista despejada y entorno residencial exclusivo.</p>
+        <p class="precio">Desde <strong>US$ 42.000</strong></p>
+        <p class="oferta">¡Oferta limitada!</p>
+        <a href="#contacto" class="boton-primario grande">Ver detalles / Agenda visita</a>
+      </div>
+      <div class="imagen-hero">
+        <img src="https://images.openai.com/thumbnails/url/b-t0Y3icu5meUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4qKc_Kscj3yc0qc8oM9U12sXAPLIsKzEhP9jC2TPUJdMzzKUrKM84xNU9xVCu2NTQAACArJS8" alt="Vista panorámica terreno Achumani">
+      </div>
+    </div>
+  </section>
+
+  <main class="contenedor">
+    <section id="ventajas" class="seccion tarjeta">
+      <h3>¿Por qué elegir este terreno?</h3>
+      <ul class="lista-ventajas">
+        <li>Área: <strong>300 m²</strong></li>
+        <li>Servicios: Agua, luz, alcantarillado ya disponibles</li>
+        <li>Frente pavimentado y acceso directo</li>
+        <li>Vista despejada hacia la ciudad</li>
+        <li>Urbanización exclusiva en expansión</li>
+        <li>Documentación en regla, entrega inmediata</li>
+      </ul>
+    </section>
+
+    <section id="galeria" class="seccion tarjeta">
+      <h3>Galería</h3>
+      <div class="galeria-grid">
+        <figure><img src="https://cdn6.ultracasas.com/dyn/yastaimages/8e0511c4ab9ba254e0ab2900d1c6d7d859b3f4" alt="Terreno 1"><figcaption>Terreno limpio y plano</figcaption></figure>
+        <figure><img src="https://farm9.staticflickr.com/8071/8292682199_0c48bfa555_b.jpg" alt="Terreno con vista"><figcaption>Vista panorámica</figcaption></figure>
+        <figure><img src="https://cdn6.ultracasas.com/dyn/yastaimages/7e53115361fee96ee532da51a38131c7783267" alt="Camino de acceso"><figcaption>Camino de acceso existente</figcaption></figure>
+        <figure><img src="https://i.ytimg.com/vi/AYB2y5-7cnM/maxresdefault.jpg" alt="Entorno residencial"><figcaption>Entorno residencial cercano</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="seccion tarjeta">
+      <h3>Ubicación</h3>
+      <div class="mapa-division">
+        <div class="mapa">
+          <iframe
+            title="Mapa Achumani"
+            src="https://www.google.com/maps?q=Achumani+La+Paz&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="texto-ubicacion">
+          <p>Zona: Achumani, La Paz.</p>
+          <p>A minutos de avenidas principales, colegios, supermercados, transporte.</p>
+          <p>Vista alta, aire puro, entorno tranquilo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="seccion tarjeta fondo-claro">
+      <h3>Lo que dicen otros clientes</h3>
+      <div class="lista-testimonios">
+        <div class="testimonio">
+          <p>“Compramos nuestro lote hace año y medio, la plusvalía se siente cada día más. Muy buena zona.”</p>
+          <span>- Familia Pérez</span>
+        </div>
+        <div class="testimonio">
+          <p>“Atención rápida y cumplida, todo en regla. Nos encantó la vista y los accesos.”</p>
+          <span>- Luis Gómez</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion tarjeta">
+      <h3>Contacto</h3>
+      <p>¿Querés verlo en persona o recibir más información? Dejanos tu mensaje:</p>
+      <form class="formulario-simple" action="mailto:ventas@terrenoachumani.bo" method="get">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="tu@mail.com" required>
+
+        <label for="telefono">Teléfono</label>
+        <input id="telefono" name="telefono" placeholder="Tu teléfono" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Estoy interesado, coordinar visita." required></textarea>
+
+        <button type="submit" class="boton-primario grande">Enviar</button>
+      </form>
+      <p class="nota-legal">Imágenes referenciales. Precio sujeto a cambios. Verificá papeles legalmente.</p>
+    </section>
+  </main>
+
+  <footer id="pie">
+    <div class="contenedor">
+      <p><strong>Terreno Achumani</strong> — +591 700 00000 — Achumani, La Paz</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', function(e){
+        const d = document.querySelector(this.getAttribute('href'));
+        if (d) {
+          e.preventDefault();
+          d.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+      });
+    });
+  </script>
+</body>
+</html>
